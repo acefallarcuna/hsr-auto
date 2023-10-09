@@ -1,4 +1,4 @@
-var url = "https://yourusername.github.io/yourrepository/yourfile.html";
+var url = "https://acefallarcuna.github.io/hsr-auto/";
 
 fetch(url)
     .then(function (response) {

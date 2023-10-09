@@ -1,5 +1,4 @@
 import { handleFlag } from "./lib/flag-handler.js";
-import server from './server.js';
 
 const importModule = async (module, path) => {
 	const { definitions } = await import(`./${path}/index.mjs`);
