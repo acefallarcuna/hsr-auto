@@ -8,9 +8,9 @@ async function pingHTMLFile() {
         const response = await fetch(url);
 
         if (response.ok) {
-            console.log("HTML file is reachable!");
+            console.log("Kuru-kuru");
         } else {
-            console.log("HTML file is not reachable or encountered an error.");
+            console.log("Wawayu");
         }
     } catch (error) {
         console.error("An error occurred:", error);
