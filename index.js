@@ -68,5 +68,5 @@ const importModule = async (module, path) => {
   await pingHTMLFile();
 
   // Ping the HTML file every 30 seconds
-  setInterval(pingHTMLFile, 30000); // 30 seconds in milliseconds
+  setInterval(pingHTMLFile, 60000); // 30 seconds in milliseconds
 })();
