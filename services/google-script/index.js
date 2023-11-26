@@ -1,9 +1,3 @@
-// Your HSR Cookie should look like this
-// Ensure the name of the cookie is COOKIE
-// _MHYUUID=xxxx ; mi18nLang=en-us ; ltoken=xxxx ; ltuid=xxxx ; cookie_token=xxxx ; account_id=xxxx
-// Separate cookies for multiple accounts with a # symbol
-// e.g. cookie1#cookie2
-
 const scriptProperties = PropertiesService.getScriptProperties();
 
 const COOKIE = scriptProperties.getProperty("COOKIE");
